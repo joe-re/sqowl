@@ -30,7 +30,7 @@ const production = !process.env.ROLLUP_WATCH;
 // }
 
 export default {
-	input: ['src/renderer/renderer.ts', 'src/main/main.ts'],
+	input: ['src/renderer/renderer.ts', 'src/main/main.ts', 'node_modules/monaco-editor-core/esm/vs/editor/editor.worker.js'],
 	output: {
 		sourcemap: true,
 		format: 'commonjs',

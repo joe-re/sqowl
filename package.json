@@ -12,22 +12,31 @@
     "@rollup/plugin-node-resolve": "^8.0.0",
     "@rollup/plugin-typescript": "^4.0.0",
     "@tsconfig/svelte": "^1.0.0",
+    "css-loader": "^4.2.1",
     "electron": "^9.2.0",
     "electron-reload": "^1.5.0",
+    "file-loader": "^6.0.0",
     "rollup": "^2.3.4",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^5.1.2",
+    "style-loader": "^1.2.1",
     "svelte": "^3.0.0",
     "svelte-check": "^0.1.0",
+    "svelte-loader": "^2.13.6",
     "svelte-preprocess": "^4.0.0",
+    "ts-loader": "^8.0.2",
     "tslib": "^2.0.0",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
+    "monaco-editor-core": "^0.20.0",
+    "monaco-languageclient": "^0.13.0",
     "sirv-cli": "^1.0.0"
   },
-  "main": "dist/main.js",
+  "main": "dist/main/main.bundle.js",
   "author": "joe-re<joe.tialtngo@gmail.com>",
   "license": "MIT"
 }

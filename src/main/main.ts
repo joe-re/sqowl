@@ -1,9 +1,9 @@
 import { app, BrowserWindow } from 'electron'
+// import reload from 'electron-reload'
 
-require('electron-reload')(__dirname, {
-  electron: require(`${__dirname}/../node_modules/electron`)
-})
-console.log('tes')
+// reload(__dirname, {
+//   electron: require('./../../node_modules/electron')
+// })
 
 function createWindow () {
   // Create the browser window.
