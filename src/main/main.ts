@@ -1,5 +1,10 @@
 import { app, BrowserWindow } from 'electron'
 
+require('electron-reload')(__dirname, {
+  electron: require(`${__dirname}/../node_modules/electron`)
+})
+console.log('tes')
+
 function createWindow () {
   // Create the browser window.
   const win = new BrowserWindow({
