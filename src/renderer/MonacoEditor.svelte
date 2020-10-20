@@ -1,6 +1,8 @@
 <script>
   import { onMount, onDestroy } from 'svelte'
   import * as monaco from 'monaco-editor-core';
+  import * as MonacoLanguageClient from "monaco-languageclient";
+
   let editor
   onMount(mountEditor)
   function mountEditor() {
